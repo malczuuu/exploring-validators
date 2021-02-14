@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/** Just redirects from home page to Swagger UI page for simplicity. */
 @RestController
 @RequestMapping(path = "/")
 public class RootController {

@@ -6,7 +6,8 @@ This repository holds a simple [`ValidPhoneNumber`][ValidPhoneNumber.java] annot
 with [`PhoneNumberValidator`][PhoneNumberValidator.java] validator class. It shows how to attach a
 custom message to field validation.
 
-Browse [Swagger UI][SwaggerUI] to test validation via REST API endpoint.
+HTTP server starts at port `8777`. Browse [Swagger UI][SwaggerUI] to test validation via REST API
+endpoint.
 
 [ValidPhoneNumber.java]: src/main/java/pl/malczuuu/exploring/validators/annotation/ValidPhoneNumber.java
 [PhoneNumberValidator.java]: src/main/java/pl/malczuuu/exploring/validators/annotation/PhoneNumberValidator.java
