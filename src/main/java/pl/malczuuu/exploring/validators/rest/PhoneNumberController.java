@@ -1,4 +1,4 @@
-package pl.malczuuu.exploring.validators;
+package pl.malczuuu.exploring.validators.rest;
 
 import javax.validation.Valid;
 import org.slf4j.Logger;
@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import pl.malczuuu.exploring.validators.model.PhoneNumber;
 
 @Validated
 @RestController

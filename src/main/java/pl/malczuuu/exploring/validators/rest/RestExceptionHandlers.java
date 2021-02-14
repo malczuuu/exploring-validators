@@ -1,4 +1,4 @@
-package pl.malczuuu.exploring.validators;
+package pl.malczuuu.exploring.validators.rest;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,6 +9,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
+import pl.malczuuu.exploring.validators.model.Violation;
+import pl.malczuuu.exploring.validators.model.ViolationsReport;
 
 @RestControllerAdvice
 public class RestExceptionHandlers {

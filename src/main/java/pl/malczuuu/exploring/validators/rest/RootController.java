@@ -1,4 +1,4 @@
-package pl.malczuuu.exploring.validators;
+package pl.malczuuu.exploring.validators.rest;
 
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.bind.annotation.GetMapping;

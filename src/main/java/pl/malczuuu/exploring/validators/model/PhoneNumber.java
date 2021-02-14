@@ -1,7 +1,8 @@
-package pl.malczuuu.exploring.validators;
+package pl.malczuuu.exploring.validators.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import pl.malczuuu.exploring.validators.annotation.ValidPhoneNumber;
 
 public class PhoneNumber {
 
@@ -12,7 +13,7 @@ public class PhoneNumber {
     this.number = number;
   }
 
-  @ValidContactNumber
+  @ValidPhoneNumber
   @JsonProperty("number")
   public String getNumber() {
     return number;

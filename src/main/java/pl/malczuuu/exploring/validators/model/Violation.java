@@ -1,4 +1,4 @@
-package pl.malczuuu.exploring.validators;
+package pl.malczuuu.exploring.validators.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

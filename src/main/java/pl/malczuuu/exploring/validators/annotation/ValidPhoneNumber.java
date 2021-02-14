@@ -1,4 +1,4 @@
-package pl.malczuuu.exploring.validators;
+package pl.malczuuu.exploring.validators.annotation;
 
 import static java.lang.annotation.ElementType.ANNOTATION_TYPE;
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
@@ -16,11 +16,11 @@ import javax.validation.Payload;
 
 @Target({METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER, TYPE_USE})
 @Retention(RUNTIME)
-@Constraint(validatedBy = ContactNumberValidator.class)
+@Constraint(validatedBy = PhoneNumberValidator.class)
 @Documented
-public @interface ValidContactNumber {
+public @interface ValidPhoneNumber {
 
-  String message() default "must match phone number format";
+  String message() default "";
 
   Class<?>[] groups() default {};
 
